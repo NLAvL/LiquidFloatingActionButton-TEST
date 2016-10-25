@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19858AC195C5F8810ACE16F4 /* Pods_FloatingButton_Liquid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A36D367F1D204C97DDA7FAB /* Pods_FloatingButton_Liquid.framework */; };
 		8E4AF8181DBFE8C4002C32DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4AF8171DBFE8C4002C32DE /* AppDelegate.swift */; };
 		8E4AF81A1DBFE8C4002C32DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4AF8191DBFE8C4002C32DE /* ViewController.swift */; };
 		8E4AF81D1DBFE8C4002C32DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4AF81B1DBFE8C4002C32DE /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02ED750F59E0FB439DE39BFC /* Pods-FloatingButton-Liquid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingButton-Liquid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FloatingButton-Liquid/Pods-FloatingButton-Liquid.debug.xcconfig"; sourceTree = "<group>"; };
+		5A36D367F1D204C97DDA7FAB /* Pods_FloatingButton_Liquid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloatingButton_Liquid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E4AF8141DBFE8C4002C32DE /* FloatingButton-Liquid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FloatingButton-Liquid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E4AF8171DBFE8C4002C32DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E4AF8191DBFE8C4002C32DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		8E4AF81E1DBFE8C4002C32DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E4AF8211DBFE8C4002C32DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E4AF8231DBFE8C4002C32DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1525D7474F081B6177DBC2C /* Pods-FloatingButton-Liquid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingButton-Liquid.release.xcconfig"; path = "Pods/Target Support Files/Pods-FloatingButton-Liquid/Pods-FloatingButton-Liquid.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19858AC195C5F8810ACE16F4 /* Pods_FloatingButton_Liquid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D72CE7499132A148A658DDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02ED750F59E0FB439DE39BFC /* Pods-FloatingButton-Liquid.debug.xcconfig */,
+				E1525D7474F081B6177DBC2C /* Pods-FloatingButton-Liquid.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8E4AF80B1DBFE8C4002C32DE = {
 			isa = PBXGroup;
 			children = (
 				8E4AF8161DBFE8C4002C32DE /* FloatingButton-Liquid */,
 				8E4AF8151DBFE8C4002C32DE /* Products */,
+				3D72CE7499132A148A658DDF /* Pods */,
+				ADA2D9DDBD6663E668CF88D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = "FloatingButton-Liquid";
 			sourceTree = "<group>";
 		};
+		ADA2D9DDBD6663E668CF88D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A36D367F1D204C97DDA7FAB /* Pods_FloatingButton_Liquid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E4AF8261DBFE8C4002C32DE /* Build configuration list for PBXNativeTarget "FloatingButton-Liquid" */;
 			buildPhases = (
+				2B3865F63C8F9A06BCB48985 /* [CP] Check Pods Manifest.lock */,
 				8E4AF8101DBFE8C4002C32DE /* Sources */,
 				8E4AF8111DBFE8C4002C32DE /* Frameworks */,
 				8E4AF8121DBFE8C4002C32DE /* Resources */,
+				E44DBA207C376E572C27D210 /* [CP] Embed Pods Frameworks */,
+				A9F09B2CA7842F2EE37ABB4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B3865F63C8F9A06BCB48985 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9F09B2CA7842F2EE37ABB4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FloatingButton-Liquid/Pods-FloatingButton-Liquid-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E44DBA207C376E572C27D210 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FloatingButton-Liquid/Pods-FloatingButton-Liquid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E4AF8101DBFE8C4002C32DE /* Sources */ = {
@@ -258,6 +333,7 @@
 		};
 		8E4AF8271DBFE8C4002C32DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02ED750F59E0FB439DE39BFC /* Pods-FloatingButton-Liquid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "FloatingButton-Liquid/Info.plist";
@@ -270,6 +346,7 @@
 		};
 		8E4AF8281DBFE8C4002C32DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1525D7474F081B6177DBC2C /* Pods-FloatingButton-Liquid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "FloatingButton-Liquid/Info.plist";
@@ -299,6 +376,7 @@
 				8E4AF8281DBFE8C4002C32DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

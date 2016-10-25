@@ -1,0 +1,22 @@
+PODS:
+  - LiquidFloatingActionButton (2.0.0)
+
+DEPENDENCIES:
+  - LiquidFloatingActionButton (from `https://github.com/yoavlt/LiquidFloatingActionButton`, branch `master`)
+
+EXTERNAL SOURCES:
+  LiquidFloatingActionButton:
+    :branch: master
+    :git: https://github.com/yoavlt/LiquidFloatingActionButton
+
+CHECKOUT OPTIONS:
+  LiquidFloatingActionButton:
+    :commit: 7acc6dee04da3ee00ff881309bd64763b216f0e6
+    :git: https://github.com/yoavlt/LiquidFloatingActionButton
+
+SPEC CHECKSUMS:
+  LiquidFloatingActionButton: 61496c787627103ccb3a23d4dea71faef4a84d4d
+
+PODFILE CHECKSUM: bf9882249d81004297bcef987ae98a1a948324be
+
+COCOAPODS: 1.1.0.rc.3
